@@ -1,0 +1,26 @@
+GET http://localhost:3000/blogs/
+
+###
+
+GET http://localhost:3000/blogs/6677da79d14cd3416bd20aa9
+
+###
+POST http://localhost:3000/blogs/
+Content-Type: application/json
+
+{
+    "title": "First BLog ",
+    "pages": 688
+}
+
+###
+DELETE http://localhost:3000/blogs/6677da79d14cd3416bd20aa9
+
+
+###
+PATCH http://localhost:3000/blogs/66782c83528d998feb711845
+Content-Type: application/json
+
+{
+    "title":"Updated Blog"
+}
